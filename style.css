@@ -1,0 +1,95 @@
+
+
+* {
+    font-family: "oxygen";
+}
+
+@media  and (min-width: 700px) {
+
+    /* nav .responsive {
+        display: flex;
+        flex-direction: row;
+        max-width: 1600px;
+        margin: 0 auto;
+    } */
+    
+}
+/* @media screen and (min-width: 700px) {
+
+    nav {
+        flex-direction: row;
+    }
+
+    nav .responsive h2 {
+        order: 1;
+    }
+    nav .responsive .home {
+        order: 2;
+    }
+
+    nav .responsive .about {
+        order: 3;
+    }
+
+    nav .responsive .services {
+        order: 4;
+    }
+
+    nav .responsive .team {
+        order: 5;
+    }
+
+    nav .responsive .portfolio {
+        order: 7;
+    }
+
+    nav .responsive .contact {
+        order: 7;
+    }
+
+
+} */
+
+
+@font-face {
+    font-family: "oxygen";
+    src: url(./Oxygen-Bold.ttf);
+}
+
+body {
+    background-image: url(./8db27c7585f3307cd7aa4052eabfb145.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+.responsive {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+ul { 
+    display: flex;
+ 
+}
+
+li {
+    list-style-type: none;
+    color: ivory;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+
+h2 {
+    color: lightcoral;
+}
+
